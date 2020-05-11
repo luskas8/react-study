@@ -1,0 +1,68 @@
+:root {
+    --width-size: 80px;
+    --width-size-hover: 250px;
+}
+
+.encapsuling {
+    width: 100%;
+    height: 100vh;
+}
+
+.menuBar-content {
+    width: 100%;
+    max-width: var(--width-size);
+    height: 100vh;
+    transition: max-width .5s;
+    position: fixed;
+
+    background-color: chocolate;
+}
+
+.menuBar-content .logo-section {
+    width: 100%;
+    height: 80px;
+}
+
+.menuBar-content .action-section {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+}
+
+.menuBar-content .social-section {
+    width: 100%;
+    max-width: var(--width-size);
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: max-width .5s;
+
+    background-color: brown;
+}
+
+.menuBar-content:hover {
+    max-width: var(--width-size-hover);
+}
+
+.menuBar-content:hover .social-section {
+    width: 100%;
+    max-width: var(--width-size-hover);
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    background-color: brown;
+}
+
+.hoverEffect {
+    background-color: royalblue;
+    transition: background-color 0.2s;
+}
+
+.content-content {
+    width: calc(100% - var(--width-size));
+    height: 100vh;
+    float: right;
+}

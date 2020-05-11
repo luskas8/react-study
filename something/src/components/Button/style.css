@@ -1,0 +1,15 @@
+button {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: firebrick;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 26px;
+}
+
+button:hover {
+    background-color: cornsilk;
+    color: black;
+}
